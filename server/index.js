@@ -24,7 +24,7 @@ app.use(express.urlencoded({extended:true}))
 const corsOptions = {
 	origin: ['https://in-class-prototyping-3.vercel.app'],
 	methods: ['GET', 'POST', 'DELETE', 'PATCH'],
-	allowHeaders : ['Content-Type', 'Authorization'],
+	allowedHeaders : ['Content-Type', 'Authorization'],
 	credentials: true,
 	optionsSuccessStatus : 200
 };
